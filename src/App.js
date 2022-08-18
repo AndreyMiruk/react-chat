@@ -1,9 +1,8 @@
-import { Message } from './components';
+import { MessageList } from './components';
 
-const messageText = 'test'
 function App() {
   return (
-    <Message text={messageText}></Message>
+    <MessageList/>
   );
 }
 
